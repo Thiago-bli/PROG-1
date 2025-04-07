@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Exemplo06 {
+    public static void main(String args[]){
+        Scanner leitor = new Scanner(System.in);
+        System.out.print("Valor de A\n");
+        int A = leitor.nextInt();
+        System.out.print("Valor de B\n");
+        int B = leitor.nextInt();
+        System.out.print("Valor de C\n");
+        int C = leitor.nextInt();
+        System.out.print("valor de D\n");
+        int D = leitor.nextInt();
+        if(D > A & B > C & (C+D > A+B) & C > 0 & D > 0 & A%2 ==0){
+           System.out.print("Valores aceitos");
+        }else {
+            System.out.print("Valores não aceitos");
+        }
+
+        }
+    }
